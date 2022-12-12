@@ -1,0 +1,514 @@
+<table cell padding="5" cell spacing="0" border="0">
+<tr>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Id</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">User</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">Stories</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">A/D</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">SUBMIT</th>
+
+</tr>
+<form method="POST" action="<?php  echo htmlspecialchars('posting.php');?>">
+<td align="left" width="10px" height="200px" align="left" valign="top" bgcolor="seashell"><?php  echo $ID; ?> <br> </td>
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center><?php  echo $USER; ?></center></td>
+<td width="900px" height="200px" bgcolor="WHITE"><center>News Title: <?php  echo $SUBJECT; ?> </center> <br> <?php  echo $STORIES; ?><br>
+
+</td>
+
+<td width="10px" height="200px" bgcolor="seashell"><center><select name="APROVE" id="APROVE">
+<option value="" >--APPROVE--</option>
+<option value="APPROVE">APPROVE<option value="DISAPROVE">DISAPROVE</option>
+</select></center></td>
+
+<td width="90px" height="200px" bgcolor="seashell"><center><input type="SUBMIT" name="ADDED" id="ADDED" value="SUBMIT"><br><br><input type="SUBMIT" name="ADDE" id="ADDE" value="PUSH TO FRONT PAGE"></center></td><br>
+
+</table>
+</FORM>
+<br>
+
+
+<table cell padding="5" cell spacing="0" border="0">
+<tr>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Id</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">User</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">Stories</th>
+<th bgcolor="whiteSmoke"><font face="cambria size="3pt" color="black">A/D</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Submit</th>
+
+
+</tr>
+<form method="POST" action="<?php  echo htmlspecialchars('posting.php');?>">
+
+<td align="left" width="10px" height="200px" align="left" valign="top" bgcolor="seashell"><?php  echo $ID1; ?> </td>
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center><?php  echo $USER1; ?> </center></td>
+<td width="900px" height="200px" bgcolor="WHITE"><center>News Title: <?php  echo $SUBJECT1; ?> </center> <br> <?php  echo $STORIES1; ?><br>
+  
+</td>
+
+<td width="10px" height="200px" bgcolor="seashell"><center><select name="APROVE1" id="APROVE1">
+<option value="" >--APPROVE--</option>
+<option value="APPROVE">APPROVE<option value="DISAPROVE">DISAPROVE</option>
+</select></center></td>
+
+<td width="90px" height="200px" bgcolor="seashell"><center><input type="SUBMIT" name="ADDED1" id="ADDED1" value="SUBMIT"><br><br><input type="SUBMIT" name="ADDE1" id="ADDE1" value="PUSH TO FRONT PAGE"></center></td><br>
+
+</table>
+</FORM>
+<br>
+<table cell padding="5" cell spacing="0" border="0">
+<tr>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Id</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">User</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">Stories</th>
+<th bgcolor="whiteSmoke"><font face="cambria size="3pt" color="black">A/D</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Submit</th>
+
+
+</tr>
+<td align="left" width="10px" height="200px" align="left" valign="top" bgcolor="seashell"><?php  echo $ID2; ?> </td>
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center><?php  echo $USER2; ?> </center></td>
+<td width="900px" height="200px" bgcolor="WHITE"><center>News Title: <?php  echo $SUBJECT2; ?> </center> <br> <?php  echo $STORIES2; ?><br>
+
+
+</td>
+
+<td width="10px" height="200px" bgcolor="seashell"><center><select name="APROVE2" id="APROVE2">
+<option value="" >--APPROVE--</option>
+<option value="APPROVE">APPROVE<option value="DISAPROVE">DISAPROVE</option>
+</select></center></td>
+
+<td width="90px" height="200px" bgcolor="seashell"><center><input type="SUBMIT" name="ADDED2" id="ADDED2" value="SUBMIT"><br><br><input type="SUBMIT" name="ADDE2" id="ADDE2" value="PUSH TO FRONT PAGE"></center></td><br>
+
+
+</table>
+<br>
+
+<table cell padding="5" cell spacing="0" border="0">
+<tr>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Id</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">User</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">Stories</th>
+<th bgcolor="whiteSmoke"><font face="cambria size="3pt" color="black">A/D</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Submit</th>
+
+</tr>
+<td align="left" width="10px" height="200px" align="left" valign="top" bgcolor="seashell"><?php  echo $ID3; ?> </td>
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center><?php  echo $USER3; ?> </center></td>
+<td width="900px" height="200px" bgcolor="WHITE"><center>News Title: <?php  echo $SUBJECT3; ?> </center> <br> <?php  echo $STORIES3; ?><br>
+</td>
+
+<td width="10px" height="200px" bgcolor="seashell"><center><select name="APROVE3" id="APROVE3">
+<option value="" >--APPROVE--</option>
+<option value="APPROVE">APPROVE<option value="DISAPROVE">DISAPROVE</option>
+</select></center></td>
+<td width="90px" height="200px" bgcolor="seashell"><center><input type="SUBMIT" name="ADDED2" id="ADDED3" value="SUBMIT"><br><br><input type="SUBMIT" name="ADDE3" id="ADDE3" value="PUSH TO FRONT PAGE"></center></td><br>
+
+
+
+</table>
+<br>
+
+<table cell padding="5" cell spacing="0" border="0">
+<tr>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Id</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">User</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">Stories</th>
+<th bgcolor="whiteSmoke"><font face="cambria size="3pt" color="black">A/D</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Submit</th>
+
+
+</tr>
+<td align="left" width="10px" height="200px" align="left" valign="top" bgcolor="seashell"><?php  echo $ID4; ?> </td>
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center><?php  echo $USER4; ?> </center></td>
+<td width="900px" height="200px" bgcolor="WHITE"><center>News Title: <?php  echo $SUBJECT4; ?> </center> <br> <?php  echo $STORIES4; ?><br>
+</td>
+<td width="10px" height="200px" bgcolor="seashell"><center><select name="APROVE4" id="APROVE4">
+<option value="" >--APPROVE--</option>
+<option value="APPROVE">APPROVE<option value="DISAPROVE">DISAPROVE</option>
+</select></center></td>
+<td width="90px" height="200px" bgcolor="seashell"><center><input type="SUBMIT" name="ADDED4" id="ADDED4" value="SUBMIT"><br><br><input type="SUBMIT" name="ADDE4" id="ADDE4" value="PUSH TO FRONT PAGE"></center></td><br>
+
+
+
+</table>
+<br>
+
+<table cell padding="5" cell spacing="0" border="0">
+<tr>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Id</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">User</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">Stories</th>
+<th bgcolor="whiteSmoke"><font face="cambria size="3pt" color="black">Give ratings</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Time</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">A/D</th>
+
+</tr>
+<td align="left" width="10px" height="200px" align="left" valign="top" bgcolor="seashell"><?php  echo $ID5; ?> </td>
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center><?php  echo $USER5; ?> </center></td>
+<td width="900px" height="200px" bgcolor="WHITE"><center>News Title: <?php  echo $SUBJECT5; ?> </center> <br> <?php  echo $STORIES5; ?><br> 
+</td>
+
+<td width="10px" height="200px" bgcolor="seashell"><center><select name="APROVE5" id="APROVE5">
+<option value="" >--APPROVE--</option>
+<option value="APPROVE">APPROVE<option value="DISAPROVE">DISAPROVE</option>
+</select></center></td>
+<td width="90px" height="200px" bgcolor="seashell"><center><input type="SUBMIT" name="ADDED5" id="ADDED5" value="SUBMIT"><br><br><input type="SUBMIT" name="ADDE5" id="ADDE5" value="PUSH TO FRONT PAGE"></center></td><br>
+
+
+</table>
+<br>
+
+<table cell padding="5" cell spacing="0" border="0">
+<tr>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Id</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">User</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">Stories</th>
+<th bgcolor="whiteSmoke"><font face="cambria size="3pt" color="black">Give ratings</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Time</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">A/D</th>
+
+</tr>
+<td align="left" width="10px" height="200px" align="left" valign="top" bgcolor="seashell"><?php  echo $ID6; ?> </td>
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center><?php  echo $USER6; ?> </center></td>
+<td width="900px" height="200px" bgcolor="WHITE"><center>News Title: <?php  echo $SUBJECT6; ?> </center> <br> <?php  echo $STORIES6; ?><br> 
+</td>
+
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center>Coming Soon</center></td>
+
+<td width="90px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+<td width="10px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+
+</table>
+<br>
+
+<table cell padding="5" cell spacing="0" border="0">
+<tr>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Id</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">User</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">Stories</th>
+<th bgcolor="whiteSmoke"><font face="cambria size="3pt" color="black">Give ratings</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Time</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">A/D</th>
+
+</tr>
+<td align="left" width="10px" height="200px" align="left" valign="top" bgcolor="seashell"><?php  echo $ID7; ?> </td>
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center><?php  echo $USER7; ?> </center></td>
+<td width="900px" height="200px" bgcolor="WHITE"><center>News Title: <?php  echo $SUBJECT7; ?> </center> <br> <?php  echo $STORIES7; ?><br>
+</td>
+
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center>Coming Soon</center></td>
+
+<td width="90px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+<td width="10px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+
+</table>
+<br>
+
+<table cell padding="5" cell spacing="0" border="0">
+<tr>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Id</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">User</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">Stories</th>
+<th bgcolor="whiteSmoke"><font face="cambria size="3pt" color="black">Give ratings</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Time</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">A/D</th>
+
+</tr>
+<td align="left" width="10px" height="200px" align="left" valign="top" bgcolor="seashell"><?php  echo $ID8; ?> </td>
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center><?php  echo $USER8; ?> </center></td>
+<td width="900px" height="200px" bgcolor="WHITE"><center>News Title: <?php  echo $SUBJECT8; ?> </center> <br> <?php  echo $STORIES8; ?><br>
+</td>
+
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center>Coming Soon</center></td>
+
+<td width="90px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+<td width="10px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+
+</table>
+<br>
+
+<table cell padding="5" cell spacing="0" border="0">
+<tr>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Id</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">User</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">Stories</th>
+<th bgcolor="whiteSmoke"><font face="cambria size="3pt" color="black">Give ratings</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Time</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">A/D</th>
+
+</tr>
+<td align="left" width="10px" height="200px" align="left" valign="top" bgcolor="seashell"><?php  echo $ID9; ?> </td>
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center><?php  echo $USER9; ?> </center></td>
+<td width="900px" height="200px" bgcolor="WHITE"><center>News Title: <?php  echo $SUBJECT9; ?> </center> <br> <?php  echo $STORIES9; ?><br> <img src="getimage.php?ID=9">
+</td>
+
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center>Coming Soon</center></td>
+
+<td width="90px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+<td width="10px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+
+</table>
+<br>
+
+<table cell padding="5" cell spacing="0" border="0">
+<tr>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Id</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">User</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">Stories</th>
+<th bgcolor="whiteSmoke"><font face="cambria size="3pt" color="black">Give ratings</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Time</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">A/D</th>
+
+</tr>
+<td align="left" width="10px" height="200px" align="left" valign="top" bgcolor="seashell"><?php  echo $ID10; ?> </td>
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center><?php  echo $USER10; ?> </center></td>
+<td width="900px" height="200px" bgcolor="WHITE"><center>News Title: <?php  echo $SUBJECT10; ?> </center> <br> <?php  echo $STORIES10; ?><br> <img src="getimage.php?ID=10">
+</td>
+
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center>Coming Soon</center></td>
+
+<td width="90px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+<td width="10px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+
+</table>
+
+<br>
+
+<table cell padding="5" cell spacing="0" border="0">
+<tr>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Id</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">User</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">Stories</th>
+<th bgcolor="whiteSmoke"><font face="cambria size="3pt" color="black">Give ratings</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Time</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">A/D</th>
+
+</tr>
+<td align="left" width="10px" height="200px" align="left" valign="top" bgcolor="seashell"><?php  echo $ID11; ?> </td>
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center><?php  echo $USER11; ?> </center></td>
+<td width="900px" height="200px" bgcolor="WHITE"><center>News Title: <?php  echo $SUBJECT11; ?> </center> <br> <?php  echo $STORIES11; ?><br> <img src="getimage.php?ID=11">
+</td>
+
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center>Coming Soon</center></td>
+
+<td width="90px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+<td width="10px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+
+</table>
+<br>
+
+<table cell padding="5" cell spacing="0" border="0">
+<tr>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Id</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">User</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">Stories</th>
+<th bgcolor="whiteSmoke"><font face="cambria size="3pt" color="black">Give ratings</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Time</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">A/D</th>
+
+</tr>
+<td align="left" width="10px" height="200px" align="left" valign="top" bgcolor="seashell"><?php  echo $ID12; ?> </td>
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center><?php  echo $USER12; ?> </center></td>
+<td width="900px" height="200px" bgcolor="WHITE"><center>News Title: <?php  echo $SUBJECT12; ?> </center> <br> <?php  echo $STORIES12; ?><br> <img src="getimage.php?ID=12">
+</td>
+
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center>Coming Soon</center></td>
+
+<td width="90px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+<td width="10px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+
+</table>
+<br>
+
+<table cell padding="5" cell spacing="0" border="0">
+<tr>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Id</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">User</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">Stories</th>
+<th bgcolor="whiteSmoke"><font face="cambria size="3pt" color="black">Give ratings</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Time</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">A/D</th>
+
+</tr>
+<td align="left" width="10px" height="200px" align="left" valign="top" bgcolor="seashell"><?php  echo $ID13; ?> </td>
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center><?php  echo $USER13; ?> </center></td>
+<td width="900px" height="200px" bgcolor="WHITE"><center>News Title: <?php  echo $SUBJECT13; ?> </center> <br> <?php  echo $STORIES13; ?><br> <img src="getimage.php?ID=13">
+</td>
+
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center>Coming Soon</center></td>
+
+<td width="90px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+<td width="10px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+
+</table>
+<br>
+
+<table cell padding="5" cell spacing="0" border="0">
+<tr>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Id</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">User</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">Stories</th>
+<th bgcolor="whiteSmoke"><font face="cambria size="3pt" color="black">Give ratings</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Time</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">A/D</th>
+
+</tr>
+<td align="left" width="10px" height="200px" align="left" valign="top" bgcolor="seashell"><?php  echo $ID14; ?> </td>
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center><?php  echo $USER14; ?> </center></td>
+<td width="900px" height="200px" bgcolor="WHITE"><center>News Title: <?php  echo $SUBJECT14; ?> </center> <br> <?php  echo $STORIES14; ?><br> <img src="getimage.php?ID=14">
+</td>
+
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center>Coming Soon</center></td>
+
+<td width="90px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+<td width="10px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+
+</table>
+<br>
+
+<table cell padding="5" cell spacing="0" border="0">
+<tr>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Id</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">User</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">Stories</th>
+<th bgcolor="whiteSmoke"><font face="cambria size="3pt" color="black">Give ratings</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Time</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">A/D</th>
+
+</tr>
+<td align="left" width="10px" height="200px" align="left" valign="top" bgcolor="seashell"><?php  echo $ID15; ?> </td>
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center><?php  echo $USER15; ?> </center></td>
+<td width="900px" height="200px" bgcolor="WHITE"><center>News Title: <?php  echo $SUBJECT15; ?> </center> <br> <?php  echo $STORIES15; ?><br> <img src="getimage.php?ID=15">
+</td>
+
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center>Coming Soon</center></td>
+
+<td width="90px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+<td width="10px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+
+</table>
+<br>
+
+<table cell padding="5" cell spacing="0" border="0">
+<tr>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Id</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">User</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">Stories</th>
+<th bgcolor="whiteSmoke"><font face="cambria size="3pt" color="black">Give ratings</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Time</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">A/D</th>
+
+</tr>
+<td align="left" width="10px" height="200px" align="left" valign="top" bgcolor="seashell"><?php  echo $ID16; ?> </td>
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center><?php  echo $USER16; ?> </center></td>
+<td width="900px" height="200px" bgcolor="WHITE"><center>News Title: <?php  echo $SUBJECT16; ?> </center> <br> <?php  echo $STORIES16; ?><br> <img src="getimage.php?ID=16">
+</td>
+
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center>Coming Soon</center></td>
+
+<td width="90px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+<td width="10px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+
+</table>
+<br>
+
+<table cell padding="5" cell spacing="0" border="0">
+<tr>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Id</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">User</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">Stories</th>
+<th bgcolor="whiteSmoke"><font face="cambria size="3pt" color="black">Give ratings</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Time</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">A/D</th>
+
+</tr>
+<td align="left" width="10px" height="200px" align="left" valign="top" bgcolor="seashell"><?php  echo $ID17; ?> </td>
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center><?php  echo $USER17; ?> </center></td>
+<td width="900px" height="200px" bgcolor="WHITE"><center>News Title: <?php  echo $SUBJECT17; ?> </center> <br> <?php  echo $STORIES17; ?><br> <img src="getimage.php?ID=17">
+</td>
+
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center>Coming Soon</center></td>
+
+<td width="90px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+<td width="10px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+
+</table>
+<br>
+
+<table cell padding="5" cell spacing="0" border="0">
+<tr>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Id</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">User</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">Stories</th>
+<th bgcolor="whiteSmoke"><font face="cambria size="3pt" color="black">Give ratings</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Time</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">A/D</th>
+
+</tr>
+<td align="left" width="10px" height="200px" align="left" valign="top" bgcolor="seashell"><?php  echo $ID18; ?> </td>
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center><?php  echo $USER18; ?> </center></td>
+<td width="900px" height="200px" bgcolor="WHITE"><center>News Title: <?php  echo $SUBJECT18; ?> </center> <br> <?php  echo $STORIES18; ?><br> <img src="getimage.php?ID=18">
+</td>
+
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center>Coming Soon</center></td>
+
+<td width="90px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+<td width="10px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+
+</table>
+<br>
+
+<table cell padding="5" cell spacing="0" border="0">
+<tr>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Id</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">User</th>
+<th bgcolor="whiteSmoke"><font face="cambria" size="3pt" color="black">Stories</th>
+<th bgcolor="whiteSmoke"><font face="cambria size="3pt" color="black">Give ratings</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">Time</th>
+<th bgcolor="seashell"><font face="cambria" size="3pt" color="black">A/D</th>
+
+</tr>
+<td align="left" width="10px" height="200px" align="left" valign="top" bgcolor="seashell"><?php  echo $ID19; ?> </td>
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center><?php  echo $USER19; ?> </center></td>
+<td width="900px" height="200px" bgcolor="WHITE"><center>News Title: <?php  echo $SUBJECT19; ?> </center> <br> <?php  echo $STORIES19; ?><br> <img src="getimage.php?ID=19">
+</td>
+
+<td width="100px" height="200px" bgcolor="whiteSmoke"><center>Coming Soon</center></td>
+
+<td width="90px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+<td width="10px" height="200px" bgcolor="seashell"><center>Coming Soon</center></td>
+
+
+</table>
+<br>
+
+  </body>
+
+
+</head>

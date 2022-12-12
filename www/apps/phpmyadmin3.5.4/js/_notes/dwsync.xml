@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="common.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="config.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="cross_framing_protection.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="date.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="db_operations.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="db_search.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="db_structure.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="dom-drag.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="export.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="functions.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="get_image.js.php" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="gis_data_editor.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="import.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="indexes.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="keyhandler.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="makegrid.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="messages.php" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="navigation.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="OpenStreetMap.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="querywindow.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="replication.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="server_plugins.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="server_privileges.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="server_status.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="server_status_monitor.js" server="C:/wamp/" local="129987626400000000" remote="129987626400000000" Dst="1" />
+<file name="server_synchronize.js" server="C:/wamp/" local="129987626420000000" remote="129987626420000000" Dst="1" />
+<file name="server_variables.js" server="C:/wamp/" local="129987626420000000" remote="129987626420000000" Dst="1" />
+<file name="sql.js" server="C:/wamp/" local="129987626420000000" remote="129987626420000000" Dst="1" />
+<file name="tbl_change.js" server="C:/wamp/" local="129987626420000000" remote="129987626420000000" Dst="1" />
+<file name="tbl_chart.js" server="C:/wamp/" local="129987626420000000" remote="129987626420000000" Dst="1" />
+<file name="tbl_gis_visualization.js" server="C:/wamp/" local="129987626420000000" remote="129987626420000000" Dst="1" />
+<file name="tbl_relation.js" server="C:/wamp/" local="129987626420000000" remote="129987626420000000" Dst="1" />
+<file name="tbl_select.js" server="C:/wamp/" local="129987626420000000" remote="129987626420000000" Dst="1" />
+<file name="tbl_structure.js" server="C:/wamp/" local="129987626420000000" remote="129987626420000000" Dst="1" />
+<file name="tbl_zoom_plot_jqplot.js" server="C:/wamp/" local="129987626420000000" remote="129987626420000000" Dst="1" />
+<file name="update-location.js" server="C:/wamp/" local="129987626420000000" remote="129987626420000000" Dst="1" />
+</dwsync>
